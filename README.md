@@ -5,14 +5,14 @@ This project classifies tweets as related or unrelated to disasters using Natura
 ## Project Overview
 In this notebook, I experimented with various models to understand which architecture performs best on disaster tweet classification. The models tested include traditional baselines, RNNs, CNNs, and transfer learning approaches. Below is a brief summary of each model used:
 
-Model 0: Naive Bayes (Baseline)
-Model 1: Feed-forward Neural Network (Dense Model)
-Model 2: LSTM Model (RNN)
-Model 3: GRU Model (RNN)
-Model 4: Bidirectional-LSTM Model (RNN)
-Model 5: 1D Convolutional Neural Network (CNN)
-Model 6: TensorFlow Hub Pretrained Feature Extractor (Transfer Learning)
-Model 7: TensorFlow Hub with 10% of Training Data (Transfer Learning)
+- Model 0: Naive Bayes (Baseline)
+- Model 1: Feed-forward Neural Network (Dense Model)
+- Model 2: LSTM Model (RNN)
+- Model 3: GRU Model (RNN)
+- Model 4: Bidirectional-LSTM Model (RNN)
+- Model 5: 1D Convolutional Neural Network (CNN)
+- Model 6: TensorFlow Hub Pretrained Feature Extractor (Transfer Learning)
+- Model 7: TensorFlow Hub with 10% of Training Data (Transfer Learning)
 
 ## Dataset
 The dataset includes tweets labeled for whether they are disaster-related. The dataset is part of a previous Kaggle competition: https://www.kaggle.com/competitions/nlp-getting-started
